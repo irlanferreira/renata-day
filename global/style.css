@@ -6,7 +6,10 @@
     font-family: 'Dancing';
     src: url('/fonts/Dancing_Script/DancingScript-VariableFont_wght.ttf') format('truetype');
 }
-@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+@font-face {
+    font-family: 'Patrick';
+    src: url('../fonts/Patrick_Hand/PatrickHand-Regular.ttf');
+}
 *{
     margin: 0px;
     padding: 0px;
@@ -19,7 +22,7 @@ h1{
     margin: 20px auto;
     max-width: 600px;
 
-    font-family: 'Patrick Hand', cursive
+    font-family: 'Patrick'
 }
 p{
     margin: 30px 20px;
