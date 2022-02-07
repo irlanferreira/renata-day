@@ -7,8 +7,8 @@
     src: url('/fonts/Dancing_Script/DancingScript-VariableFont_wght.ttf');
 }
 @font-face {
-    font-family: 'Balsamiq';
-    src: url('/fonts/Balsamiq_Sans/BalsamiqSans-Bold.ttf');
+    font-family: 'Balsamic';
+    src: url('/fonts/Balsamiq_Sans/BalsamiqSans-Regular.ttf');
 }
 *{
     margin: 0px;
@@ -22,7 +22,7 @@ h1{
     margin: 20px auto;
     max-width: 600px;
 
-    font-family: 'Balsamiq', Arial, Helvetica, sans-serif;
+    font-family: 'Balsamic', Arial, Helvetica, sans-serif;
 }
 p{
     margin: 30px 20px;
