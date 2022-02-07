@@ -4,11 +4,11 @@
 }
 @font-face {
     font-family: 'Dancing';
-    src: url('/fonts/Dancing_Script/DancingScript-VariableFont_wght.ttf');
+    src: url('/fonts/Dancing_Script/DancingScript-VariableFont_wght.ttf') format('truetype');
 }
 @font-face {
-    font-family: 'Balsamic';
-    src: url('/fonts/Balsamiq_Sans/BalsamiqSans-Regular.ttf');
+    font-family: 'Balsamiq';
+    src: url('/fonts/Balsamiq_Sans/BalsamiqSans-Regular.ttf') format('truetype');
 }
 *{
     margin: 0px;
@@ -22,7 +22,7 @@ h1{
     margin: 20px auto;
     max-width: 600px;
 
-    font-family: 'Balsamic', Arial, Helvetica, sans-serif;
+    font-family: 'Balsamiq', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 p{
     margin: 30px 20px;
