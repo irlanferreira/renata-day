@@ -1,12 +1,12 @@
 body{
-    background-color: #ffcdb9;
+    background-color: #fdd8ca;
 }
 main{
     display: flex;
     justify-content: center;
 }
 div#img{
-    width: 40vw;
+    width: 50vw;
     height: 100vh;
 
     background:  url('../../imagens/renata6.jpg');
@@ -19,7 +19,7 @@ div#img{
 
 }
 main div#div2{
-    width: 60vw;
+    width: 50vw;
 }
 h1{
     text-align: center;
