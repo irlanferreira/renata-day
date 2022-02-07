@@ -1,0 +1,21 @@
+body{
+    background-image: linear-gradient(to bottom, #c19bff, #d69cd3 60%);
+    height: 100vh;
+}
+#presentes{
+
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.presente{
+    width: 15vw;
+    height: 15vw;
+    margin-top: 40px;
+}
+@media (max-width: 700px) {
+    .presente{
+        width: 30vw;
+        height: 30vw;
+    }
+}
