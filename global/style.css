@@ -6,10 +6,7 @@
     font-family: 'Dancing';
     src: url('/fonts/Dancing_Script/DancingScript-VariableFont_wght.ttf') format('truetype');
 }
-@font-face {
-    font-family: 'Balsamiq';
-    src: url('/fonts/Balsamiq_Sans/BalsamiqSans-Regular.ttf') format('truetype');
-}
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
 *{
     margin: 0px;
     padding: 0px;
@@ -22,7 +19,7 @@ h1{
     margin: 20px auto;
     max-width: 600px;
 
-    font-family: 'Balsamiq', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Patrick Hand', cursive
 }
 p{
     margin: 30px 20px;
