@@ -1,0 +1,47 @@
+body{
+    background-color: #f5defc;
+}
+div#imagensTop{
+    display: flex;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.336);
+}
+div#imagensTop div{
+    width: 50%;
+    height: 30vw;
+
+    background-size: cover;
+    background-position: center center;
+}
+#imagem1{
+    background: url('../../imagens/renata2.jpg');
+}
+#imagem2{
+    background: url('../../imagens/renata5.jpg');
+}
+main{
+    display: flex;
+}
+main article{
+    width: 50%;
+    margin: 0px;
+    padding: 20px;
+
+    box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.274);
+
+    border-radius: 0px 0px 6px 6px;
+}
+main article#a1{
+    background-color: #e7c9f0;
+}
+main article#a2{
+    background-color: #f3d7a3;
+}
+main p{
+    margin: 0px 10px;
+}
+@media(max-width:700px){
+    article p{
+        text-indent: 0px;
+        font-size: 0.5em;
+    }
+}
