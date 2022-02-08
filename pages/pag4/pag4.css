@@ -24,20 +24,43 @@ main{
 main article{
     width: 50%;
     margin: 0px;
-    padding: 20px;
+    padding: 10px;
 
     box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.274);
 
     border-radius: 0px 0px 6px 6px;
+    
 }
 main article#a1{
     background-color: #e7c9f0;
+    height: fit-content;
 }
 main article#a2{
     background-color: #f3d7a3;
+    width: f;
 }
 main p{
     margin: 0px 10px;
+}
+#imgTxt{
+    padding: 20px;
+
+    background: url('../../imagens/renata4.jpg');
+    background-size: cover;
+    background-position: center top;
+}
+#imgTxt div{
+    max-width: 600px;
+    margin: auto;
+}
+#imgTxt p{
+    color: white;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.685);
+    text-align: center;
+    font-size: 1.4em;
+}
+#botaoVoltar{
+    background-color: #d7a4e7;
 }
 @media(max-width:700px){
     article p{
