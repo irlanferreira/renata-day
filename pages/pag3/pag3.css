@@ -1,0 +1,91 @@
+body{
+    background-color: #f951232f;
+}
+div#titulo{
+    padding: 50px 0px;
+
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.150), rgba(0, 0, 0, 0.150)), url('../../imagens/batatas.jpg');
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.253);
+}
+div#titulo h1{
+    color: white;
+    font-size: 2.5em;
+    text-shadow: -1px 1px 6px rgba(0, 0, 0, 0.363);
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 100px 0px;
+}
+article{
+    width: 40vw;
+}
+h1, h2{
+   margin: 20px auto;
+
+    text-align: center;
+}
+h2{
+    margin: 0px 0px 60px 0px;
+}
+li{
+    margin: 15px 0px;
+
+    line-height: 1.5em;
+    text-align: justify;
+}
+div#final{
+    display: flex;
+    justify-content: center;
+    background-color: #f9512317;
+}
+div#final div{
+    width: 50vw;
+}
+div#escondidinho{
+    background: url('../../imagens/escondidinho.jpg');
+    background-size: cover;
+}
+#botaoVoltar{
+    background-color: #f9512391;
+}
+
+@media(max-width:900px){
+    div#final{
+        display: block;
+    }
+    div#final div{
+        width: 100%;
+    }
+    div#escondidinho{
+        width: 100vw;
+        height: 30vw;
+    }
+}
+@media(max-width: 550px){
+    main{
+        display: block;
+    }
+    article{
+        width: 94vw;
+    }
+    ul, ol{
+        width: 70%;
+        margin: auto;
+    }
+    li{
+        list-style-position: inside;
+        text-align: center;
+    }
+    article h2{
+        margin: 0px 0px 60px 0px;
+    }
+    
+}
